@@ -23,7 +23,17 @@ h1{
     float: right;
     margin-top: 0%;
     padding: 2rem;
+}
+
+.navbar a {
     text-decoration: none;
+    color: inherit;
+    font-size: 35px;
+    color: olivedrab;
+}
+
+.navbar a:hover {
+    color: black;
 }
 
 p{
