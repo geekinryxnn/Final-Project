@@ -36,9 +36,19 @@ p{
 
 .container{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
-    margin: 0%;
+    margin: 0;
+    padding: 1rem;
     width: 100%;
-    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.container button{
+    font-size: 20px;
+    padding: 1rem 2rem;
+    margin-left: 1rem;
+    cursor: pointer;
 }
