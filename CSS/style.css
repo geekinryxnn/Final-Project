@@ -62,24 +62,9 @@ p{
     cursor: pointer;
 }
 
-.featured-designs {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1rem;
-    padding: 1rem;
+.container button:hover{
+    background-color: black;
+    color: white;
 }
 
-.featured-designs img, .gallery img {
-    max-width: 500px;
-    height: auto;
-    padding: 5rem;
-}
 
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1rem;
-    padding: 1rem;
-}
