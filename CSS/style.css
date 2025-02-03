@@ -9,8 +9,6 @@ body{
     background-color: blanchedalmond;
 }
 
-
-
 h1{
     font-size: 50px;
     text-align: center;
@@ -23,7 +21,7 @@ h1{
     gap: 5rem; 
     overflow: none;
     float: right;
-    margin-top: 3%;
+    margin-top: 0%;
     padding: 2rem;
 }
 
@@ -32,22 +30,18 @@ h1{
     color: inherit;
     font-size: 30px;
     font-weight: bolder;
-    border-color: aqua;
-    
 }
 
 .navbar a:hover {
     color: black;
 }
 
-section{
+p{
     color: black;
-    font-size: 40px;
+    font-size: 35px;
     font-family: Arial, sans-serif;
-    text-align: center;
-    margin-top: 15%;
-    font-weight: bolder;
-
+    text-align: justify;
+    margin-top: 10%;
 }
 
 .container{
@@ -63,17 +57,48 @@ section{
 }
 
 .container button{
-    font-size: 25px;
+    font-size: 20px;
     padding: 1rem 2rem;
     margin-left: 1rem;
     cursor: pointer;
-    background-color: grey;
-    
 }
 
 .container button:hover{
     background-color: aqua;
 }
+
+.image-text-container{
+    max-width: 900px; 
+    height: auto;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+}
+
+
+.image-text-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
+.image-text-container img {
+    max-width: 400px;
+    height: auto;
+}
+
+.image-text-container p {
+    font-size: 30px;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
 
 
 
