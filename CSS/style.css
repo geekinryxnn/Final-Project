@@ -140,7 +140,7 @@ h4 {
   align-items: center;
 }
 
-@media (max-width: 658px) {
+@media (max-width: 480px) {
     .menu {
         display: none; /* Hide large menu, use hamburger menu */
     }
