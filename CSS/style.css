@@ -1,6 +1,6 @@
 * {
-  padding: 0%;
-  margin: 0%;
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 
@@ -13,7 +13,7 @@ body {
 h1 {
   font-size: 50px;
   text-align: center;
-  margin-top: 0%;
+  margin-top: 0;
 }
 
 .navbar {
@@ -22,7 +22,7 @@ h1 {
   gap: 4rem;
   overflow: none;
   float: right;
-  margin-top: 0%;
+  margin-top: 0;
   padding: 7rem;
   flex-wrap: wrap;
 }
@@ -30,8 +30,7 @@ h1 {
 .navbar a {
   text-decoration: none;
   color: inherit;
-  font-size: 30px;
-  font-weight: bolder;
+  font-size: 20px;
 }
 
 .navbar a:hover {
@@ -77,27 +76,24 @@ p {
   background: #fff;
   padding: 5rem;
   padding-bottom: 3%;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  text-align: left;
+ text-align: left;
   display: flex;
   flex-direction: column;
   width: 100%;
-  max-width: 600px; /* Increase the width */
-  margin: 0 auto; /* Center the form */
+  max-width: 600px; 
+  margin: 0 auto; 
 }
 
 .contact-form textarea {
   width: 100%;
-  padding: 4rem; /* Increase padding for larger input fields */
+  padding: 4rem;
   margin: 0.5rem 0;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+
 }
 
 .contact-form button {
   width: 100%;
-  padding: 1rem; /* Increase padding for larger button */
+  padding: 1rem; 
   margin: 1rem 0;
   border: none;
   border-radius: 4px;
@@ -108,7 +104,7 @@ p {
 }
 
 .contact-form button:hover {
-  background-color: #0056b3;
+    background-color: aqua;
 }
 
 .image-container {
@@ -143,30 +139,30 @@ p {
 }
 
 .login-container {
-  padding: 5rem;
-  padding-bottom: 3%;
-  text-align: left;
   display: flex;
-  flex-direction: row;
-  width: 100%;
-  max-width: 600px;
-  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  height: 80vh; /* Adjust height as needed */
 }
 
 .login-form {
-  width: 200%;
-  padding: 4rem;
-  margin: 5rem 0;
-  /* border: 1px solid #ccc; */
-  border-radius: 4px;
+  background: #fff;
+  padding: 2rem;
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+}
+
+.login-form h1 {
+  margin-bottom: 1.5rem;
 }
 
 .login-form input {
   width: 100%;
-  padding: 1rem;
+  padding: 0.75rem;
   margin: 0.5rem 0;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+ 
+
 }
 
 .login-form button {
@@ -175,7 +171,7 @@ p {
   margin: 1rem 0;
   border: none;
   border-radius: 4px;
-  background-color: #007bff;
+  background-color: #007BFF;
   color: white;
   font-size: 1rem;
   cursor: pointer;
@@ -183,6 +179,19 @@ p {
 
 .login-form button:hover {
   background-color: #0056b3;
+}
+
+.login-form .message {
+  margin-top: 1rem;
+}
+
+.login-form .message a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.login-form .message a:hover {
+  text-decoration: underline;
 }
 
 .signup-container {
@@ -260,5 +269,32 @@ h4 {
 
   h3 {
     font-size: 20px;
+  }
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image-text-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image-text-container p {
+    max-width: 100%;
+  }
+
+  .side-image {
+    max-width: 100%;
+    margin-left: 0;
   }
 }
