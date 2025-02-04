@@ -1,153 +1,134 @@
-*{
-    padding: 0%;
-    margin: 0%;
+* {
+  padding: 0%;
+  margin: 0%;
 }
 
-body{
-    font-family: Arial, sans-serif;
-    font-size: 25px;
-    background-color: blanchedalmond;
+body {
+  font-family: Arial, sans-serif;
+  font-size: 25px;
+  background-color: blanchedalmond;
 }
 
-h1{
-    font-size: 50px;
-    text-align: center;
-    margin-top: 0%;
+h1 {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 0%;
 }
 
-.navbar{
-    display: flex;
-    justify-content: space-between; 
-    gap: 5rem; 
-    overflow: none;
-    float: right;
-    margin-top: 0%;
-    padding: 2rem;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+  overflow: none;
+  float: right;
+  margin-top: 0%;
+  padding: 2rem;
 }
 
 .navbar a {
-    text-decoration: none;
-    color: inherit;
-    font-size: 30px;
-    font-weight: bolder;
+  text-decoration: none;
+  color: inherit;
+  font-size: 30px;
+  font-weight: bolder;
 }
 
 .navbar a:hover {
-    color: black;
+  color: black;
 }
 
- p{
-
-    color: black;
-    font-size: 30px;
-    font-family: Arial, sans-serif;
-    text-align: justify;
-    margin-top: 10%;
+p {
+  color: black;
+  font-size: 30px;
+  font-family: Arial, sans-serif;
+  text-align: justify;
+  margin-top: 10%;
 }
 
-.container{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin: 0;
-    padding: 1rem;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    right: 0;
+.container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0;
+  padding: 1rem;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
-.container button{
-    font-size: 20px;
-    padding: 1rem 2rem;
-    margin-left: 1rem;
-    cursor: pointer;
+.container button {
+  font-size: 20px;
+  padding: 1rem 2rem;
+  margin-left: 1rem;
+  cursor: pointer;
 }
 
-.container button:hover{
-    background-color: aqua;
+.container button:hover {
+  background-color: aqua;
 }
 
-.image-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5%;
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
 }
 
-.image-container img{
-    width: 50%;
-    height: 30%;
-    align-items: center;
+.image-container img {
+  width: 50%;
+  height: 30%;
+  align-items: center;
 }
 
-   .gallery {
-            align-items: row;
-            grid-gap: 25px;
-        }
-
-        .gallery img {
-            width: 45%;
-            height: auto;
-            padding-top: 7%;
-            margin: 2%;
-        }
-
-        .gallery img:hover {
-            transform: scale(1.1);
-            transition: 0.5s;
-        }
-
-      h2{
-            padding-top: 8%;
-            text-align: center;
-            font-size: 65px;
-
-        }
-
-        h3{
-            padding-top: 8%;
-            text-align: center;
-            font-size: 40px;
-        }
-
-        h4{
-            padding-top: 8%;
-            text-align: center;
-            font-size: 50px
-        }
-
-        .p1{
-            padding-top: 8%;
-            text-align: center;
-            font-size: 30px;
-        }
-.architects{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5%;
+.gallery {
+  align-items: row;
+  grid-gap: 25px;
 }
 
-.architects img{
-    width: 50%;
-    height: 30%;
-    align-items: center;
+.gallery img {
+  width: 45%;
+  height: auto;
+  padding-top: 7%;
+  margin: 2%;
 }
 
+.gallery img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
 
+h2 {
+  padding-top: 8%;
+  text-align: center;
+  font-size: 65px;
+}
 
+h3 {
+  padding-top: 8%;
+  text-align: center;
+  font-size: 40px;
+}
 
+h4 {
+  padding-top: 8%;
+  text-align: center;
+  font-size: 50px;
+}
 
+.p1 {
+  padding-top: 8%;
+  text-align: center;
+  font-size: 30px;
+}
+.architects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.architects img {
+  width: 50%;
+  height: 30%;
+  align-items: center;
+}
