@@ -139,3 +139,18 @@ h4 {
   height: 30%;
   align-items: center;
 }
+
+@media (max-width: 658px) {
+    .menu {
+        display: none; /* Hide large menu, use hamburger menu */
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 20px; /* Adjust text size for better readability */
+    }
+}
+
