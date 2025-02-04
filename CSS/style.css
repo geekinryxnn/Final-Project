@@ -78,8 +78,6 @@ h1{
 .image-container img{
     width: 50%;
     height: 30%;
-    /* border-radius: 50%;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5); */
     align-items: center;
 }
 
@@ -95,11 +93,12 @@ h1{
             margin: 2%;
         }
 
-        .gallery img 1{
-            boderline::backdrop
+        .gallery img:hover {
+            transform: scale(1.1);
+            transition: 0.5s;
         }
 
-        h2{
+      h2{
             padding-top: 8%;
             text-align: center;
             font-size: 65px;
