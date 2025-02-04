@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>House Design Hub</h1>
+      <nav class="navbar">
+        <a href="home.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact us.html">Contact</a>
+      </nav>
+    </header>
+    <section class="container">
+    <button onclick="location.href='signup.html'">Sign Up</button>
+    </section>
+    <main>
+      <section class="login-container">
+        <form class="login-form" action="submit_login.php" method="post">
+          <h1>Login</h1>
+          <input type="text" name="username" placeholder="Username" required />
+          <input
+            type="password"
+            name="password"
+            placeholder="Password"
+            required
+          />
+          <button type="submit">Login</button>
+          <p class="message">
+            Not registered? <a href="signup.html">Create an account</a>
+          </p>
+        </form>
+      </section>
+    </main>
+
+    <script src="./Scripts/scripts.js"></script>
+  </body>
+</html>
