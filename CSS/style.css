@@ -18,7 +18,7 @@ h1 {
 .navbar {
   display: flex;
   justify-content: space-between;
-  gap: 5rem;
+  gap: 4rem;
   overflow: none;
   float: right;
   margin-top: 0%;
@@ -142,37 +142,34 @@ h4 {
 
 @media (max-width: 678px) {
     .menu {
-        display: none; /* Hide large menu, use hamburger menu */
-    }
-
-    .container {
-        padding: 10px;
+        display: none; 
+        padding: 5px;
     }
 
     h1 {
-        font-size: 20px; /* Adjust text size for better readability */
+        font-size: 20px; 
     }
 
     p {
-        font-size: 15px; /* Adjust text size for better readability */
+        font-size: 15px;
     }
 
     .image-container img {
-        width: 100%; /* Adjust image size for better readability */
+        width: 100%; 
     }
 
     .gallery img {
-        width: 100%; /* Adjust image size for better readability */
+        width: 100%; 
     }
 
     h2 {
-        font-size: 30px; /* Adjust text size for better readability */
+        font-size: 30px;
     }
 
     h3 {
-        font-size: 20px; /* Adjust text size for better readability */
+        font-size: 20px; 
     }
 
-    
+
 }
 
