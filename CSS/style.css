@@ -43,6 +43,7 @@ p {
   font-family: Arial, sans-serif;
   text-align: justify;
   margin-top: 10%;
+  padding: 5%;
 }
 
 .container {
@@ -95,8 +96,10 @@ p {
 .gallery img {
   width: 45%;
   height: auto;
-  padding-top: 7%;
+  padding-top: 4%;
   margin: 2%;
+  gap: 2rem;
+  
 }
 
 .gallery img:hover {
@@ -110,16 +113,20 @@ h2 {
   font-size: 65px;
 }
 
-h3 {
-  padding-top: 8%;
-  text-align: center;
-  font-size: 40px;
-}
+
 
 h4 {
-  padding-top: 8%;
+  padding-top: 10%;
   text-align: center;
   font-size: 50px;
+  padding-bottom: 5%;
+  display: flex;
+  
+}
+
+.h4{
+    justify-content: center;
+    align-items: center;
 }
 
 .p1 {
@@ -147,11 +154,11 @@ h4 {
     }
 
     h1 {
-        font-size: 20px; 
+        font-size: 50px; 
     }
 
     p {
-        font-size: 25px;
+        font-size: 30px;
     }
 
     .image-container img {
