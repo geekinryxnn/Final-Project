@@ -140,7 +140,7 @@ h4 {
   align-items: center;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 678px) {
     .menu {
         display: none; /* Hide large menu, use hamburger menu */
     }
@@ -152,5 +152,27 @@ h4 {
     h1 {
         font-size: 20px; /* Adjust text size for better readability */
     }
+
+    p {
+        font-size: 15px; /* Adjust text size for better readability */
+    }
+
+    .image-container img {
+        width: 100%; /* Adjust image size for better readability */
+    }
+
+    .gallery img {
+        width: 100%; /* Adjust image size for better readability */
+    }
+
+    h2 {
+        font-size: 30px; /* Adjust text size for better readability */
+    }
+
+    h3 {
+        font-size: 20px; /* Adjust text size for better readability */
+    }
+
+    
 }
 
