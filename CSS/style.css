@@ -22,7 +22,8 @@ h1 {
   overflow: none;
   float: right;
   margin-top: 0%;
-  padding: 2rem;
+  padding: 7rem;
+  flex-wrap: wrap;
 }
 
 .navbar a {
@@ -52,8 +53,14 @@ p {
   padding: 1rem;
   width: 100%;
   position: absolute;
-  top: 0;
+  top: 7%;
   right: 0;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(300px, 1fr)
+  ); 
+  gap: 5px;
+  padding: 20px;
 }
 
 .container button {
