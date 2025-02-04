@@ -83,6 +83,29 @@ h1{
     align-items: center;
 }
 
+   .gallery {
+            align-items: row;
+            grid-gap: 25px;
+        }
+
+        .gallery img {
+            width: 45%;
+            height: auto;
+            padding-top: 7%;
+            margin: 2%;
+        }
+
+        .gallery img 1{
+            boderline::backdrop
+        }
+
+        h2{
+            padding-top: 8%;
+            text-align: center;
+            font-size: 65px;
+
+        }
+
 
 
 
