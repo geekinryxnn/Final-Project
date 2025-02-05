@@ -140,35 +140,25 @@ p {
   gap: 2rem;
 }
 
-
 .login-container {
+  padding: 7rem;
+  padding-bottom: 10%;
+  text-align: left;
   display: flex;
-  justify-content: center;
-  align-items: right;
-  height: 80vh;
- 
+  flex-direction: column;
+  width: 700%;
+  max-width: 500px;
+  margin: 4 auto;
+  
 }
 
-.login-form {
-  background: #fff;
-  padding: 5rem;
-  padding-bottom: 7%;
-  text-align: center;
-  max-width: 600px;
-  text-align: center;
-}
-
-.login-form h1 {
-  margin-bottom: 1rem;
-}
-
-.login-form input {
+.login-form-container input {
   width: 100%;
   padding: 0.5rem;
   margin: 1rem;
 }
 
-.login-form button {
+.login-form-container button {
   width: 100%;
   padding: 1rem;
   margin: 1rem ;
@@ -179,22 +169,11 @@ p {
   cursor: pointer;
 }
 
-.login-form button:hover {
+.login-form-container button:hover {
   background-color: brown;
 }
 
-.login-form .message {
-  margin-top: 1rem;
-}
 
-.login-form .message a {
-  color: #007BFF;
-  text-decoration: none;
-}
-
-.login-form .message a:hover {
-  text-decoration: underline;
-}
 
 .signup-form-container {
   padding: 5rem;
