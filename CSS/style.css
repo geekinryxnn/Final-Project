@@ -37,6 +37,7 @@ h1 {
   color: inherit;
   font-size: 30px;
   font-weight: bolder;
+  padding: 1rem;
 }
 
 .navbar a:hover {
@@ -142,14 +143,14 @@ p {
 
 .login-container {
   padding: 7rem;
-  padding-bottom: 10%;
+  padding-bottom: 9%;
   text-align: left;
   display: flex;
-  flex-direction: column;
-  width: 700%;
-  max-width: 500px;
-  margin: 4 auto;
-  
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  margin: auto;
+  height: 80%;
 }
 
 .login-form-container input {
